@@ -1,7 +1,7 @@
 # NanoTools
 Simple, private tool for the analysing of nanoparticle data
 
-Current features are very basic. It c read in an excel spread sheet and plot a histogram from a column of data, 
+Current features are very basic. It can read in an excel spread sheet and plot a histogram from a column of data, 
 calculating statistical quantities.
 
 ##Requirements
@@ -39,7 +39,7 @@ python rungui.py
 and its use should be self explanatory
 
 
-#.xlsx formatting
+##.xlsx formatting
 The sheet to be analysed should have the following style of formatting:
     Column A:
         A vertical list of your data
