@@ -41,19 +41,17 @@ and its use should be self explanatory
 
 ##.xlsx formatting
 The sheet to be analysed should have the following style of formatting:
-    Column A:
-        A vertical list of your data
 
-    Column B:
-        The first three rows can be used to specify the titles and labels for
-        the plot.
-
-            B1: Plot title
-            B2: x axis title
-            B3: y axis title
+Column A:
+    A vertical list of your data
+    
+Column B
+    B1: Plot title
+    B2: x axis title
+    B3: y axis title
         
-        Any or all of these can be left blank, and in this case that particular
-        title or label will not be drawn
+    Any or all of these can be left blank, and in this case that particular
+    title or label will not be drawn
 
 
 
