@@ -43,9 +43,12 @@ and its use should be self explanatory
 The sheet to be analysed should have the following style of formatting:
 
 Column A:
+
     A vertical list of your data
+
     
 Column B
+
     B1: Plot title
     B2: x axis title
     B3: y axis title
