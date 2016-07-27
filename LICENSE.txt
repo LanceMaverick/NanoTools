@@ -1,6 +1,6 @@
 NANOTOOLS v0.2
 
-Copyright (c) 2016 Peter Griffith
+Copyright (c) 2016 Lance Maverick
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in the
