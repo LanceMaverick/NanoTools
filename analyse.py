@@ -35,14 +35,25 @@ def analyse(fname, sname, nbins):
     print 'DATA:'
     print  data
 
+    mean = calcMean(data)
+    mode = calcMode(data)
+    median = calcMed(data)
+    sdev = calcSD(data)
+
     #print statistical values
     print '\n\n'
-    print 'MEAN: ', str(calcMean(data))
-    print 'MODE: ', str(calcMode(data))
-    print 'MEDIAN: ', str(calcMed(data))
-    print 'STD DEV: ', str(calcSD(data))
+    print 'MEAN: ',     str(mean)
+    print 'MODE: ',     str(mode)
+    print 'MEDIAN: ',   str(median)
+    print 'STD DEV: ',  str(sdev)
     print '\n\n'
 
     #create histogram
     hist.plotData(data, nbins, sname, **largs)
-
+    
+    return {
+            'mean': mean,
+            'mode': mode,
+            'median': median,
+            'sdev': sdev
+            }
