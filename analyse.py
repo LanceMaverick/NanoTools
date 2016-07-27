@@ -11,7 +11,6 @@ def readData(fname, sname):
     data = [sheet.cell_value(r, 0) for r in range(sheet.nrows)] 
     titles = [sheet.cell_value(r, 1) for r in range(3)]
     
-    #see if valid nbins argument exists
     return data, titles
 
 
@@ -22,6 +21,7 @@ def analyse(fname, sname, nbins):
     read = readData(fname, sname)
     data = read[0] #data vector
     labels = read[1] #plot labels
+
     if not nbins:    
         nbins = setBins(data)['nbins']
     
